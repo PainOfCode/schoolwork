@@ -1,4 +1,4 @@
-package com.aufgaben.aufgaben;
+package aufgaben;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

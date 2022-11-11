@@ -1,7 +1,7 @@
-package com.aufgaben.auswahl;
+package auswahl;
 
-import com.aufgaben.aufgaben.ArrayUebungen;
-import com.aufgaben.aufgaben.KlassenUebungen;
+import aufgaben.KlassenUebungen;
+import aufgaben.ArrayUebungen;
 
 import java.util.Scanner;
 

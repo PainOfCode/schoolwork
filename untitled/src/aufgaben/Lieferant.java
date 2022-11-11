@@ -1,4 +1,4 @@
-package com.aufgaben.aufgaben;
+package aufgaben;
 
 public class Lieferant {
     private Adresse adresse;

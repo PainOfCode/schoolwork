@@ -1,4 +1,4 @@
-package com.aufgaben.aufgaben;
+package aufgaben;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -40,14 +40,14 @@ public class Artikel {
     public String toString() {
 
         return String.format(
-                "Artikelnummerr: %s, Artikelname: %s, Bestand: %s, Einkaufspreis: %s, Warengruppe: %s, Auslaufartikel: %s, Lieferantenname: %s",
+                "Artikelnummerr: %s, Artikelname: %s, Bestand: %s, Einkaufspreis: %s, Warengruppe: %s, Auslaufartikel: %s, Lieferant: %s",
                 artikelNr,
                 artikelName,
                 bestand,
                 einkaufspreis,
                 warengruppe,
                 auslaufartikel,
-                lieferant.getName()
+                lieferant
         );
     }
 
