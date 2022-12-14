@@ -1,7 +1,8 @@
 package auswahl;
 
-import aufgaben.KlassenUebungen;
 import aufgaben.ArrayUebungen;
+import aufgaben.KlassenUebungen;
+import aufgaben.Lagerverwaltung.IO;
 
 import java.util.Scanner;
 
@@ -12,10 +13,11 @@ public class Main {
     public static void main(String[] args) {
         ArrayUebungen arrayUebungen = new ArrayUebungen();
         KlassenUebungen klassenUebungen = new KlassenUebungen();
+        IO io = new IO(sc);
 
         sc.useDelimiter("\n");
 
-        klassenUebungen.aufgabe4();
+        io.aufgabe();
 
         sc.close();
     }
