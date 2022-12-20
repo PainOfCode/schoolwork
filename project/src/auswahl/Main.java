@@ -1,7 +1,7 @@
 package auswahl;
 
-import aufgaben.ArrayUebungen;
-import aufgaben.KlassenUebungen;
+import aufgaben.Beispiele.ArrayUebungen;
+import aufgaben.Beispiele.KlassenUebungen;
 import aufgaben.Lagerverwaltung.IO;
 
 import java.util.Scanner;
@@ -14,10 +14,15 @@ public class Main {
         ArrayUebungen arrayUebungen = new ArrayUebungen();
         KlassenUebungen klassenUebungen = new KlassenUebungen();
         IO io = new IO(sc);
+        aufgaben.Vererbung.BasisBeispiele.IO ioLager = new aufgaben.Vererbung.BasisBeispiele.IO();
+        aufgaben.Vererbung.OnlineShop.IO ioOnline = new aufgaben.Vererbung.OnlineShop.IO();
 
         sc.useDelimiter("\n");
 
-        io.aufgabe();
+        //io2.aufgabe();
+
+        //System.out.println(stringBuilder);
+        ioOnline.aufgabe1();
 
         sc.close();
     }

@@ -1,4 +1,4 @@
-package aufgaben;
+package aufgaben.Beispiele;
 
 public class StaticUebungen {
 

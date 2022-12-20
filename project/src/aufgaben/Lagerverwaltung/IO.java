@@ -105,7 +105,6 @@ public class IO {
 
         List<Artikel> artikelList = lagerbestand.getArtikelList();
 
-        print("ArtID\t\tArtikelname\t\t\tBestand\tEinzelpreis\t\t");
         for (int i = 0; i < artikelList.size(); i++) {
 
             print((i + 1) + ". Artikel: " + artikelliste.get(i));
