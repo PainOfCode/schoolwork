@@ -1,6 +1,6 @@
 package auswahl;
 
-import aufgaben.interfaces.stack.IO;
+import aufgaben.ArrayLists.Gruppenbau.Gruppenbau;
 import aufgaben.recursion;
 
 import java.util.Arrays;
@@ -15,12 +15,10 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        IO io = new IO();
-
-
         sc.useDelimiter("\n");
 
-        io.aufgabe1();
+        Gruppenbau gruppenbau = new Gruppenbau();
+        gruppenbau.aufgabe();
 
         sc.close();
     }
